@@ -33,9 +33,9 @@ Representar, de forma acessível e envolvente, os principais acontecimentos e te
 ## 🛠️ Tecnologias Utilizadas
 
 
-- Linguagens: [<a href="https://www.w3schools.com/html/"><mark>HTML<mark></a>], [<a href="https://www.w3schools.com/css/"><mark>CSS<mark></a>] && [<a href="https://www.w3schools.com/js/"><mark>JavaScript<mark></a>]    
-- Framework: [<a href="https://getbootstrap.com/"><mark>Bootstrap<mark></a>]  
-- Biblioteca de áudio/visual: [<a href="https://pixabay.com/pt/sound-effects/search/sons/"><mark>Pixabay<mark></a>]
+- Linguagens: [ <a href="https://www.w3schools.com/html/"><mark>HTML<mark></a> ], [ <a href="https://www.w3schools.com/css/"><mark>CSS<mark></a> ] && [ <a href="https://www.w3schools.com/js/"><mark>JavaScript<mark></a> ]    
+- Framework: [ <a href="https://getbootstrap.com/"><mark>Bootstrap<mark></a> ]  
+- Biblioteca de áudio/visual: [ <a href="https://pixabay.com/pt/sound-effects/search/sons/"><mark>Pixabay<mark></a> ]
 
 ---
 

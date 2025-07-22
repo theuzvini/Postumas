@@ -32,11 +32,9 @@ Representar, de forma acessível e envolvente, os principais acontecimentos e te
 
 ## 🛠️ Tecnologias Utilizadas
 
-*(Adicione aqui as tecnologias usadas no jogo, por exemplo:)*
 
-- HTML, CSS e JavaScript  
-- Engine: [Nome da engine, se aplicável]  
-- Framework: [Ex: Phaser.js, Unity, Godot, etc.]  
+- HTML, CSS e JavaScript    
+- Framework: [Bootstrap]  
 - Biblioteca de áudio/visual: [...]
 
 ---
@@ -44,8 +42,7 @@ Representar, de forma acessível e envolvente, os principais acontecimentos e te
 ## 📜 Créditos
 
 - Texto original: **Machado de Assis**  
-- Adaptação e desenvolvimento: **[Seu Nome ou Equipe]**  
-- Interpretação dos personagens: **Matheus Vinícius**  
+- Adaptação e desenvolvimento: **Matheus Vinícius**   
 
 Este jogo é uma homenagem sem fins lucrativos à obra *Memórias Póstumas de Brás Cubas*, visando a valorização da literatura brasileira.
 

@@ -35,7 +35,7 @@ Representar, de forma acessível e envolvente, os principais acontecimentos e te
 
 - HTML, CSS e JavaScript    
 - Framework: [Bootstrap]  
-- Biblioteca de áudio/visual: [...]
+- Biblioteca de áudio/visual: [ <a href="https://pixabay.com/pt/sound-effects/search/sons/"> <mark>pixabay<mark> </a>]
 
 ---
 

@@ -6,14 +6,27 @@
     <link rel="shortcut icon" href="../Assets/img/icone.png" type="x-icon">
     <title>Póstumas: Entre Memórias</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <div id="telapreta"></div>
     <div id="logo">
         <img src="../Assets/img/logo.png" alt="Póstumas, Entre Memórias">
     </div>
-
+    <div id="jogo">
+        <div class="chuva"></div>
+        <nav class="navbar">
+            <img class="navlogo" src="../Assets/img/logoingame.png" alt="Póstumas, Entre Memórias">
+            <a class="campo" href="#" onclick="tocarSom1()"><i class="fas fa-circle-info"></i> Sobre</a>
+            <a class="campo" href="#" onclick="tocarSom2()"><i class="fas fa-book-open-reader"></i> Tutorial</a>
+            <a class="campo" href="#" onclick="tocarSom3()"><i class="fas fa-copyright"></i> Autoria</a>
+            <a class="campo" href="#" onclick="tocarSom4()"><i class="fas fa-user-pen"></i> Dedicatória</a>
+            <a class="campo" href="#" onclick="tocarSom5()"><i class="fas fa-book"></i> Livro</a>
+        </nav>
+    </div>
     <audio id="abertura" src="../Assets/audio/entrada.mp3"></audio>
+    <audio id="fundo" src="../Assets/audio/chuva.1.mp3" loop autoplay muted></audio>
+    <audio id="clique" src="../Assets/audio/click.1.mp3" preload="auto"></audio>
     <script src="../js/script.js"></script>
 </body>
 </html>

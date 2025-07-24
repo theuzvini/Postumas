@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -44,9 +46,24 @@ body, html {
 
 #jogo {
   display: none;
-  background-color: #e3e3e3;
+  background-image: url("../Assets/img/fundo.1.png");
+  background-size: cover;
   z-index: 1;
   padding: 20px;
+}
+
+#jogo .chuva {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../Assets/img/Chuva.png"); /* pode ser gif ou canvas animado */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 0; /* Fica atrás de tudo */
+  pointer-events: none; /* Não bloqueia cliques */
 }
 
 /* Animações */
@@ -61,4 +78,43 @@ body, html {
   to {
     opacity: 1;
   }
+}
+
+.navbar {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 12px 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 13%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.navlogo img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.campo {
+  text-decoration: none;
+  color: #222;
+  font-size: 30px;
+  font-family: "inria-sans", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  transition: 0.3s;
+}
+
+.campo:hover {
+  color: #007BFF;
+  transform: scale(1.05);
 }
